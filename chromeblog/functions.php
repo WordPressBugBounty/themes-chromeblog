@@ -28,7 +28,8 @@ function chromeblog_filter_default_theme_options($defaults)
 {    
     
     $defaults['show_flash_news_section'] = 0;  
-    $defaults['show_main_news_section'] = 0;  
+    $defaults['show_main_news_section'] = 0; 
+    $defaults['aft_custom_title'] = __('Subscribe', 'chromeblog'); 
     $defaults['show_featured_posts_section'] = 0;
     $defaults['post_title_font']    = 'secondary';
     $defaults['chromenews_section_title_font_size']    = 20;
