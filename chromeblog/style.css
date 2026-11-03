@@ -8,7 +8,7 @@ Tested up to: 7.1
 Description: Chrome Blog is a powerful free WordPress theme for blog and news. The theme comes with a number of free starting demo sites that can be easily imported to build a fantastic online journal. The theme is completely widgetized, with 9+ unique widgets and widget sections that allow users to alter site content. It also has a bright and dark color option for reading articles and blog posts in style. It also comes with a number of essential customizer options for constructing a visually appealing news site. You may configure it as you see fit before making any changes with the live customizer.It supports Gutenberg blocks and RTL, as well as the WooCommerce plugin, allowing you to use our newspaper theme in conjunction with an online store. The theme is suitable for blog, news, magazine, publishing, or review websites, as well as for blogging. It's well-designed to help the website rank better in search engines, and users will get fantastic support from the team if they have any problems while using it. Find all demos and documentaion at https://afthemes.com/products/chromenews/chromeblog/
 Support: https://afthemes.com/supports/
 Template: chromenews
-Version: 1.1.1
+Version: 1.1.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: chromeblog
@@ -63,4 +63,20 @@ body.single-post .entry-title, h1.page-title {
 }
 body:is(.aft-dark-mode,.aft-light-mode) .is-style-outline a.wp-block-button__link:not(.has-border-color) {
     border-color: unset;
+}
+.entry-content .wp-block-rss li a, 
+.entry-content .wp-block-categories a, 
+.entry-content .wp-block-archives a,
+.entry-content .wp-block-latest-comments li a, 
+.entry-content .wp-block-latest-posts li a, 
+.entry-content .wp-block-tag-cloud a,
+.entry-content .wp-block-page-list a,
+.entry-content .wp-block-navigation a,
+.entry-content .wp-block-query a,
+.entry-content .wp-block-post-title a,
+.entry-content .wp-block-post-excerpt__more-link,
+.entry-content .wp-block-post-comments-form a,
+.entry-content .wp-block-loginout a,
+.entry-content .wp-block-calendar tbody a {
+    color: inherit !important;
 }
